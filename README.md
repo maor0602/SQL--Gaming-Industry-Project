@@ -82,12 +82,7 @@ For questions or feedback, feel free to reach out:
 
 - ## 📧 Contact
 - Email: <a href="mailto:your-email@example.com">📧 your-email@example.com</a>
-- LinkedIn: <a href="https://www.linkedin.com/in/your-profile/">🔗 LinkedIn</a>
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maor-barel-a823a3288/)
 
-## 📧 Contact
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile/)
 
-## 📧 Contact
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- LinkedIn: 🔗 [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
 
