@@ -60,11 +60,11 @@ The dataset contains the following fields:
 
 ## 🔑 Key Findings
 - **Highest Genre Activity**:
-  - The year with the most active genres at their peak was [2008].
+  - The year with the most active genres at their peak was **2008**.
 - **Critic Scores**:
   - Two ratings had identical weighted average, mean, and mode values because they each had only one value in the dataset, making all statistical measures equal.
 - **Top YoY Growth**:
-  - The platform with the highest YoY growth was [GBA] in [2001].
+  - The platform with the highest YoY growth was **GBA** in **2001**.
 
 ---
 
