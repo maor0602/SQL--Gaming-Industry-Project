@@ -1,9 +1,6 @@
-# SQL-Gaming Industry Project
-A project analyzing video games sales data using SQL complex queries
+# 🎮 SQL Final Project: Video Games Sales Analysis
 
-# 🎮 SQL Project: Video Games Sales Analysis
-
-📚 Project Overview
+## 📚 Project Overview
 This project involves analyzing a dataset of video game sales, ratings, and related metrics from 1980 to 2020. Using SQL, I performed data exploration and analysis to answer key business questions and uncover insights about the gaming industry's performance across different platforms, genres, and regions.
 
 ---
