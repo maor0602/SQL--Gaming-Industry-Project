@@ -78,4 +78,4 @@ The dataset contains the following fields:
 ## 📧 Contact
 For questions or feedback, feel free to reach out:
 - Email: [Maor7878@gmail.com](mailto:Maor7878@gmail.com)
-- LinkedIn: (https://www.linkedin.com/in/maor-barel-a823a3288/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/maor-barel-a823a3288/)
