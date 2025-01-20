@@ -13,5 +13,6 @@ This project involves analyzing a dataset of video game sales, ratings, and rela
 ---
 
 ## 📂 File Structure
-SQL -Gaming Industry Sales Project: Includes all SQL queries written to perform the analysis, such as weighted averages, YoY growth, and global sales by genre.
+SQL -Gaming Industry Sales Project: Includes all SQL queries written to perform the analysis, such as weighted averages, YoY growth,
+and global sales by genre.
 Video games sales dataset.xlsx: The dataset used for this project, including details on video games (sales, ratings, platforms, etc.).
