@@ -1,6 +1,6 @@
 --                            SQL- Gaming Industry Sales Project
 
---QUESTION 2 A:
+--QUESTION 1 A:
 with totalCount_CTE as 
 (
 select name, count (*) totalCount
@@ -13,7 +13,7 @@ from totalCount_CTE
 
 
 
---QUESTION 2 B:
+--QUESTION 1 B:
 with sumGS_CTE as
 (
 select Genre, Year_of_Release, sum(Global_Sales) sumGS
@@ -34,14 +34,14 @@ order by count (*) over (partition by years) desc
 
 
 
---QUESTION 3 NORMAL AVG:
+--QUESTION 2 NORMAL AVG:
 select rating, cast (avg (Critic_Score) as decimal (10, 2)) avgCS
 from video_games
 group by Rating
 
 
 
---QUESTION 3 WEIGHTED AVG:
+--QUESTION 2 WEIGHTED AVG:
 select Rating,
 cast ((sum (Critic_Score*Critic_Count)/ sum (critic_count)) as decimal (10,2)) weightedAVG
 from video_games
@@ -49,7 +49,7 @@ group by Rating
 
 
 
---QUESTION 3 MODE:
+--QUESTION 2 MODE:
 with scoreCount_CTE as
 (
 select Rating, Critic_Score, count (Critic_Score) scoreCount
@@ -67,13 +67,13 @@ order by Rating, Critic_Score
 
 
 
---QUESTION 3:
+--QUESTION 2:
 /*The two ratings that have the same values for all three measures are 'K-A' AND 'AO',
 and this is because each of them has only one value.*/
 
 
 
---QUESTION 4:
+--QUESTION 3:
 with allCross_CTE as
 (select distinct vg1.Genre, vg2.Platform, vg3.Year_of_Release
 from (select distinct Genre from video_games where Genre is not null) vg1
@@ -92,7 +92,7 @@ order by ac.Genre, ac.Platform, ac.Year_of_Release
 
 
 
---QUESTION 5:
+--QUESTION 4:
 with allYears_CTE as
 (
 select distinct vg1.Platform, vg2.Year_of_Release
