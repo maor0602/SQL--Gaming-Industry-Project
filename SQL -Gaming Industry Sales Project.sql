@@ -1,4 +1,4 @@
---                            SQL FINAL PROJECT
+--                            SQL- Gaming Industry Sales Project
 
 --QUESTION 2 A:
 with totalCount_CTE as 
